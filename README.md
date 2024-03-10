@@ -1,4 +1,4 @@
-# alx-interview
+alx-interview 00
 # Pascal's Triangle Generator
 
 Pascal's Triangle is a fascinating mathematical concept that produces a triangular array of binomial coefficients. This README will guide you through creating a Python function to generate Pascal's Triangle up to a specified number of rows.
@@ -37,7 +37,8 @@ Before diving into the project, ensure you're familiar with the following Python
 - **Memory Management:**
 -  Be mindful of memory usage, especially when dealing with large data structures.
 - **Error and Exception Handling
--  (Optional):** Use try-except blocks to handle errors gracefully.
+ (Optional):**
+-  Use try-except blocks to handle errors gracefully.
 - **Efficiency and Optimization:**
 - Consider time and space complexity, and optimize your solution for performance.
 
