@@ -1,6 +1,21 @@
 alx-interview 00
 # Pascal's Triangle Generator
 
+def pascal_triangle(n):   
+   
+    if n <= 0:
+        
+        return []
+        
+    triangle = [[1]]
+    for i in range(1, n):
+        row = [1]
+        for j in range(1, i):
+            row.append(triangle[i - 1][j - 1] + triangle[i - 1][j])
+        row.append(1)
+        triangle.append(row)
+
+    return triangle
 Pascal's Triangle is a fascinating mathematical concept that produces a triangular array of binomial coefficients. This README will guide you through creating a Python function to generate Pascal's Triangle up to a specified number of rows.
 
 ## What is Pascal’s Triangle?
